@@ -61,13 +61,13 @@ The status of elements in the "map" are affected by adjacent elements (Cellular 
 Map element may have periodic status, which changes periodically.  
 
 The library would provide:  
-the definition of the "map";  
-an api to initialize a "map" randomly from scratch;  
-an api to initialize a "map" by parsing a text file;  
-an api to "merge" two "map"s of the same size (for editing the "map" manually);  
-an api to derive the status of a given "map" at the next time tick (stepwise);  
-an api to derive the status of a given "map" at a specific time in future;  
-an api to add periodic effects on the map (the effect not suit to described by element status).  
+- the definition of the "map";  
+- an api to initialize a "map" randomly from scratch;  
+- an api to initialize a "map" by parsing a text file;  
+- an api to "merge" two "map"s of the same size (for editing the "map" manually);  
+- an api to derive the status of a given "map" at the next time tick (stepwise);  
+- an api to derive the status of a given "map" at a specific time in future;  
+- an api to add periodic effects on the map (the effect not suit to described by element status).  
 
 ### Visualizing and Controlling
 
@@ -76,30 +76,30 @@ We can make use of these modules in other projects in the future.
 
 #### Screen
 
-Assign an area of the window for a specific use.  
-Register multiple screens to the application.  
-Layer management.  
-When user actions are caught by the application, the actions are forwarded to affected screen.  
+- Assign an area of the window for a specific use.  
+- Register multiple screens to the application.  
+- Layer management.  
+- When user actions are caught by the application, the actions are forwarded to affected screen.  
 
 #### Button and Button Group
 
-Including different control elements, including button, scroller, and so on.  
-Some items are mutual exclusive or strongly related, they should be managed as a group.  
-Register multiple button groups to the screen they are allocated.  
-When user actions are forwarded to the screen, the actions are forwarded to affected button group.  
+- Including different control elements, including button, scroller, and so on.  
+- Some items are mutual exclusive or strongly related, they should be managed as a group.  
+- Register multiple button groups to the screen they are allocated.  
+- When user actions are forwarded to the screen, the actions are forwarded to affected button group.  
 
 #### Action Simulator
 
-Simulate a series of designed actions to the application.  
+- Simulate a series of designed actions to the application.  
 
 #### Video Recorder
 
-Record the whole or part of the application window, and generate a video file in selected format to be uploaded to social media platform.  
-Enable adding subtitiles if possible.  
+- Record the whole or part of the application window, and generate a video file in selected format to be uploaded to social media platform.  
+- Enable adding subtitiles if possible.  
 
 ### Demonstration Application
 
-
+- 
 
 ## Implementation
 
