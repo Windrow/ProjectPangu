@@ -62,8 +62,8 @@ Map element may have periodic status, which changes periodically.
 
 The library would provide:  
 - the definition of the "map";  
-- an api to initialize a "map" randomly from scratch;  
-- an api to initialize a "map" by parsing a text file;  
+- an api to initialize a "map" randomly from scratch (set "map" level);  
+- an api to initialize a "map" by parsing a text file (set "map" level);  
 - an api to "merge" two "map"s of the same size (for editing the "map" manually);  
 - an api to derive the status of a given "map" at the next time tick (stepwise);  
 - an api to derive the status of a given "map" at a specific time in future;  
@@ -88,6 +88,12 @@ We can make use of these modules in other projects in the future.
 - Register multiple button groups to the screen they are allocated.  
 - When user actions are forwarded to the screen, the actions are forwarded to affected button group.  
 
+#### Map Interpreter
+
+- A collection of art resources.  
+- Display the map on a screen according to map elements status and display configurations.  
+- Incremental display, update changed parts only.  
+
 #### Action Simulator
 
 - Simulate a series of designed actions to the application.  
@@ -99,6 +105,12 @@ We can make use of these modules in other projects in the future.
 
 ### Demonstration Application
 
+- Start video recorder.  
+- A welcome screen. Background and project description.  
+- Initialize data base at the same time.  
+- Initialize screens and buttons.  
+    (map screen, statistics screen, generation control panel, display control panel, description screen, application control panel...)  
+- Start Action simulator.  
 - 
 
 ## Implementation
