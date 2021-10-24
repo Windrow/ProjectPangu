@@ -100,7 +100,8 @@ We can make use of these modules in other projects in the future.
 
 #### Video Recorder
 
-- Record the whole or part of the application window, and generate a video file in selected format to be uploaded to social media platform.  
+- Record the whole or part of the application window, and generate a video file in selected format to be uploaded to social media platform.
+- A voice narrative if possible.
 - Enable adding subtitiles if possible.  
 
 ### Demonstration Application
