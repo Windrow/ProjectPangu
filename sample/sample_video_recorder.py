@@ -51,3 +51,5 @@ tts.save("../output/sample_audio.mp3")
 
 # merge video and audio
 os.system("ffmpeg -i ../output/sample_video_0.avi -i ../output/sample_audio.mp3 ../output/sample_video_1.avi -y")
+
+pygame.quit()
