@@ -1,0 +1,6 @@
+2022.7.12.
+Some requirements in the future：
+- The generation process should be like a pipeline. Each step (generation rule) should be able to be plugged in and out freely.
+- Generation rules and rules handler should be able to be defined customizedly.
+- To be applied as a module or plugin into popular game engines or omniverse platforms.
+- To be used in a distribution system. The map would be generated, stored, fetched, interact distributedly.
